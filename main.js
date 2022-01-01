@@ -11,6 +11,7 @@ anime.timeline({loop: true})
         delay: (el, i) => 70 * (i+1)
     }) */
 
+    // this is js file
 var letters = document.querySelector('.letters');
 letters.innerHTML = letters.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
